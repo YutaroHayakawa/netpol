@@ -1,0 +1,10 @@
+layout:
+- go.kubebuilder.io/v3
+projectName: mynetpol
+repo: github.com/YutaroHayakawa/netpol
+resources:
+- controller: true
+  group: networking.k8s.io
+  kind: NetworkPolicy
+  version: v1
+version: "3"
